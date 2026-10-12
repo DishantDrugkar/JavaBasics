@@ -11,5 +11,9 @@ public class HashMapDemo {
 
         System.out.println(map);
 
+        System.out.println(map.isEmpty());
+        System.out.println(map.containsKey(2));
+        System.out.println(map.containsValue("Peter Parkar"));
+
     }
 }
